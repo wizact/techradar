@@ -1,0 +1,19 @@
+name,ring,quadrant,isNew,description
+Four key Metrics,Adopt,Techniques,FALSE,
+GitLab CI/CD,Adopt,Platforms,FALSE,
+Playwright,Trial,Tools,FALSE,* 15 Nov 2022 This has been an adopt for FrEnd Platform team. The intention of this trial is to investigate the tool for UI automation testing + other front end apps
+Cypress,Hold,Tools,FALSE,
+Tractor,Hold,Tools,FALSE,"* 15 Nov 2022 Tractor is an in-house built absteraction on top of Protractor. The abstraction level, makes it hard for our engineers to adopt it in specic use cases, and since it is a in-house built, there is a huge cost attached to that in terms of onboarding, maintenance, and improvement. We strongly recommend not to use this tooling in new platforms and migrate away from it if it is used in any new legacy applications. This tool is not supported anymore."
+Postman,Assess,Tools,FALSE,
+DBT,Trial,languages-and-frameworks,TRUE,
+Stitch,Assess,Tools,TRUE,
+Snowflake,Adopt,Platforms,FALSE,
+AWS Data Lake,Hold,Platforms,FALSE,"* 15 Nov 2022 The S3/Athena data lake from the Big Data wave that has been superceded by the new generation of fully managed data plaftorms, in our case Snowflake"
+Prefect,Adopt,Platforms,FALSE,* 15 Nov 2022 Also reassess scope with DBT preferred for transforms
+Terraform,Adopt,Tools,FALSE,
+SSIS,Hold,Tools,FALSE,
+"E, L then T",Adopt,Techniques,TRUE,* 15 Nov 2022 Simple pipelines (Extract and Load) and lineage to increase visability of transformations (T) because they occur inside the data platform 
+Database extraction for analytics,Hold,Techniques,FALSE,* 15 Nov 2022 Database back-ups have no conttact and force unweildy reverse engineering. We retain this technique for only existing legacy Trade Me data
+Event driven analytics,Assess,Techniques,TRUE,* 15 Nov 2022 Requires a renewed approach to trial as our software architecture adopts the event strategy and we deprecate the AWS Data Lake and reconsider it's pipelines
+Event-Carried State Transfer architecture,Assess,Techniques,TRUE,
+Data Mesh,Hold,Techniques,TRUE,* 15 Nov 2022 Data as Product thinking is highly desirable but our Software Architecture and therefore our Data Architecture do not (yet) align to well managed domains and empowered business units
