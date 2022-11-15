@@ -1,0 +1,20 @@
+Trade Me Technology Radar - Build your Technology Radar
+name,ring,quadrant,isNew
+Four key Metrics,Adopt,Techniques,FALSE
+GitLab CI/CD,Adopt,Platforms,FALSE
+Playwright,Trial,Tools,FALSE
+Cypress,Hold,Tools,FALSE
+Tractor,Hold,Tools,FALSE
+Postman,Assess,Tools,FALSE
+DBT,Trial,languages-and-frameworks,TRUE
+Stitch,Assess,Tools,TRUE
+Snowflake,Adopt,Platforms,FALSE
+AWS Data Lake,Hold,Platforms,FALSE
+Prefect,Adopt,Platforms,FALSE
+Terraform,Adopt,Tools,FALSE
+SSIS,Hold,Tools,FALSE
+"E, L then T",Adopt,Techniques,TRUE
+Database extraction for analytics,Hold,Techniques,FALSE
+Event driven analytics,Assess,Techniques,TRUE
+Event-Carried State Transfer architecture,Assess,Techniques,TRUE
+Data Mesh,Hold,Techniques,TRUE
